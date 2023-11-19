@@ -2,7 +2,9 @@
   "extends": [
     "next/core-web-vitals",
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "airbnb",
+    "airbnb-typescript"
   ],
   "parserOptions": {
     "project": "./tsconfig.json"
@@ -14,6 +16,11 @@
     ],
     "react/react-in-jsx-scope": "off",
     "no-console": "warn",
-    "linebreak-style": "off"
+    "linebreak-style": "off",
+    "import/prefer-default-export": "off",
+    "react/function-component-definition": "off",
+    "arrow-body-style": "off",
+    "react/button-has-type": "off",
+    "react/jsx-props-no-spreading": "off"
   }
 }
